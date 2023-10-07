@@ -12,6 +12,9 @@ export default function FeaturedDoctor() {
       <Tab />
       <Tab />
       <Tab />
+      <Tab />
+      <Tab />
+      <Tab />
     </div>
   );
 }
