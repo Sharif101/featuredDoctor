@@ -5,16 +5,6 @@ export default function FeaturedDoctor() {
   return (
     <div>
       <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
-      <Tab />
     </div>
   );
 }
