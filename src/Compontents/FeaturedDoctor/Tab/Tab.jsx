@@ -2,16 +2,8 @@ import classes from "./Tab.module.css";
 import {
   faBacteria,
   faBrain,
-  faCapsules,
   faDisease,
-  faPersonBreastfeeding,
-  faPersonDress,
-  faPersonPregnant,
   faPills,
-  faStarOfLife,
-  faStethoscope,
-  faUserDoctor,
-  faUsers,
   faVenusMars,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,0 +1,66 @@
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container p {
+  margin: 0;
+}
+.container {
+  padding: 0 6em;
+}
+.allDoctors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.singleDoctor {
+  background-color: white;
+  box-shadow: 5px 6px 8px #eaebf0;
+  text-align: center;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 10px;
+}
+.singleDoctor > img {
+  width: 299px;
+  height: 160px;
+}
+.info {
+  border-top: 1px solid rgb(243, 243, 243);
+}
+.info > p:nth-child(1) {
+  color: #316ab0;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+.info > p:nth-child(2) {
+  font-size: 14px;
+  color: gray;
+}
+.info > p:nth-child(3) {
+  font-size: 14px;
+  color: #316ab0;
+  font-weight: 500;
+  padding: 5px 0;
+}
+.fee {
+  margin: 10px;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+.fee > p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333333;
+}
+.fee > p:nth-child(1) {
+  color: #457dc3;
+  padding: 5px 0;
+}
+.fee > p:nth-child(3) {
+  padding: 5px 0;
+}
+.fee > p > span {
+  color: #457dc3;
+}
