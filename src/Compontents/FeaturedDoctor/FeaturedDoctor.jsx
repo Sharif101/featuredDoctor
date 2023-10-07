@@ -6,6 +6,9 @@ export default function FeaturedDoctor() {
     <div>
       <Tab />
       <Tab />
+      <Tab />
+      <Tab />
+      <Tab />
     </div>
   );
 }
