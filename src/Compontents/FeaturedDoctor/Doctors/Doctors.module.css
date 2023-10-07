@@ -12,19 +12,44 @@
 }
 .allDoctors {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 .singleDoctor {
+  width: 92%;
   background-color: white;
-  box-shadow: 5px 6px 8px #eaebf0;
   text-align: center;
+  box-shadow: 5px 6px 8px #eaebf0;
   border: 1px solid rgb(241, 241, 241);
   border-radius: 10px;
 }
 .singleDoctor > img {
   width: 299px;
   height: 160px;
+}
+.singleDoctor > button {
+  background-image: linear-gradient(
+    to right,
+    #4a89d8,
+    #4890da,
+    #4797dc,
+    #499edd,
+    #4da4de
+  );
+  box-shadow: 5px 6px 8px #cddbf1;
+  padding: 8px 15px;
+  margin: 20px 0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.singleDoctor > button > span {
+  padding-left: 10px;
+}
+.singleDoctor > button:hover {
+  opacity: 0.9;
 }
 .info {
   border-top: 1px solid rgb(243, 243, 243);
@@ -46,21 +71,26 @@
   padding: 5px 0;
 }
 .fee {
-  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin: 0 10px;
+  margin-top: 10px;
   border-top: 1px solid rgb(228, 228, 228);
 }
-.fee > p {
-  font-size: 15px;
+.fee > div > p {
+  font-size: 14px;
   font-weight: 500;
   color: #333333;
 }
-.fee > p:nth-child(1) {
+.fee > .left > p:nth-child(1) {
   color: #457dc3;
   padding: 5px 0;
 }
-.fee > p:nth-child(3) {
+.fee > .right > p:nth-child(1) {
   padding: 5px 0;
 }
-.fee > p > span {
+
+.fee > .right > p > span {
   color: #457dc3;
 }
