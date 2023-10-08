@@ -16,7 +16,7 @@
   gap: 15px;
 }
 .singleDoctor {
-  width: 92%;
+  width: 95%;
   background-color: white;
   text-align: center;
   box-shadow: 5px 6px 8px #eaebf0;
@@ -83,11 +83,19 @@
   font-weight: 500;
   color: #333333;
 }
-.fee > .left > p:nth-child(1) {
-  color: #457dc3;
+.left > p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.left > p > img {
+  width: 15px;
+}
+.left > p:nth-child(1) {
+  /* color: #457dc3; */
   padding: 5px 0;
 }
-.fee > .right > p:nth-child(1) {
+.right > p:nth-child(1) {
   padding: 5px 0;
 }
 

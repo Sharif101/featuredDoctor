@@ -1,5 +1,7 @@
 import classes from "./Doctors.module.css";
 import doctor from "../../../assets/FeaturedDoctor/Doctor.png";
+import hospital from "../../../assets/FeaturedDoctor/hospital.svg";
+import work from "../../../assets/FeaturedDoctor/work.svg";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -17,8 +19,16 @@ export default function Doctors() {
           </div>
           <div className={classes.fee}>
             <div className={classes.left}>
-              <p>Dhaka Medical Hospital</p>
-              <p>20 Years of Experience</p>
+              <p>
+                {" "}
+                <img src={hospital} alt="" />
+                Dhaka Medical Hospital
+              </p>
+              <p>
+                {" "}
+                <img src={work} alt="" />
+                20 Years of Experience
+              </p>
             </div>
             <div className={classes.right}>
               <p>
@@ -47,8 +57,16 @@ export default function Doctors() {
           </div>
           <div className={classes.fee}>
             <div className={classes.left}>
-              <p>Dhaka Medical Hospital</p>
-              <p>20 Years of Experience</p>
+              <p>
+                {" "}
+                <img src={hospital} alt="" />
+                Dhaka Medical Hospital
+              </p>
+              <p>
+                {" "}
+                <img src={work} alt="" />
+                20 Years of Experience
+              </p>
             </div>
             <div className={classes.right}>
               <p>
@@ -77,8 +95,16 @@ export default function Doctors() {
           </div>
           <div className={classes.fee}>
             <div className={classes.left}>
-              <p>Dhaka Medical Hospital</p>
-              <p>20 Years of Experience</p>
+              <p>
+                {" "}
+                <img src={hospital} alt="" />
+                Dhaka Medical Hospital
+              </p>
+              <p>
+                {" "}
+                <img src={work} alt="" />
+                20 Years of Experience
+              </p>
             </div>
             <div className={classes.right}>
               <p>
@@ -107,8 +133,16 @@ export default function Doctors() {
           </div>
           <div className={classes.fee}>
             <div className={classes.left}>
-              <p>Dhaka Medical Hospital</p>
-              <p>20 Years of Experience</p>
+              <p>
+                {" "}
+                <img src={hospital} alt="" />
+                Dhaka Medical Hospital
+              </p>
+              <p>
+                {" "}
+                <img src={work} alt="" />
+                20 Years of Experience
+              </p>
             </div>
             <div className={classes.right}>
               <p>
